@@ -86,8 +86,8 @@ ribbon:
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 2
   OkToRetryOnAllOperations: false
-  ConnectTimeout: 60000
-  ReadTimeout: 20000
+  ConnectTimeout: 1000
+  ReadTimeout: 1000
 
 hystrix:
   command:
