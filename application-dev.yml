@@ -124,8 +124,8 @@ paascloud:
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
-      accessKey: 'your qiniu accessKey'
-      secretKey: 'your qiniu secretKey'
+      accessKey: 3FwODo37SVvqnYep0FJ54xLnJPlFfICGAiOLpmpu
+      secretKey: l5HqSg5tMBduik50skrlsaRq5ypzcv_fnFuVgeTK
     oss:
       privateHost: 'your qiniu oss private host'
       publicHost: 'your qiniu oss public host'
