@@ -38,7 +38,7 @@ zuul:
         MaxAutoRetries: 1
         MaxAutoRetriesNextServer: 2
         OkToRetryOnAllOperations: false
-        ConnectTimeout: 10000
+        ConnectTimeout: 60000
         ReadTimeout: 10000
     omc-route:
       path: /omc/**
@@ -50,7 +50,7 @@ zuul:
         MaxAutoRetries: 1
         MaxAutoRetriesNextServer: 2
         OkToRetryOnAllOperations: false
-        ConnectTimeout: 10000
+        ConnectTimeout: 60000
         ReadTimeout: 10000
     opc-route:
       path: /opc/**
@@ -62,7 +62,7 @@ zuul:
         MaxAutoRetries: 1
         MaxAutoRetriesNextServer: 2
         OkToRetryOnAllOperations: false
-        ConnectTimeout: 10000
+        ConnectTimeout: 60000
         ReadTimeout: 10000
     mall-route:
       path: /mall/**
@@ -74,7 +74,7 @@ zuul:
         MaxAutoRetries: 1
         MaxAutoRetriesNextServer: 2
         OkToRetryOnAllOperations: false
-        ConnectTimeout: 10000
+        ConnectTimeout: 60000
         ReadTimeout: 10000
     tpc-route:
       path: /tpc/**
@@ -86,7 +86,7 @@ zuul:
         MaxAutoRetries: 1
         MaxAutoRetriesNextServer: 2
         OkToRetryOnAllOperations: false
-        ConnectTimeout: 10000
+        ConnectTimeout: 60000
         ReadTimeout: 10000
   add-proxy-headers: true
   add-host-header: true
