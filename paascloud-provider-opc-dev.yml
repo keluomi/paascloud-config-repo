@@ -64,8 +64,8 @@ paascloud:
       accessKey: 3FwODo37SVvqnYep0FJ54xLnJPlFfICGAiOLpmpu
       secretKey: l5HqSg5tMBduik50skrlsaRq5ypzcv_fnFuVgeTK
     oss:
-      privateHost:
-      publicHost:
+      privateHost: http://px76tor58.bkt.clouddn.com
+      publicHost: http://px76tor58.bkt.clouddn.com
       fileMaxSize: 104857600
   oauth2:
     jwtSigningKey: paascloud
